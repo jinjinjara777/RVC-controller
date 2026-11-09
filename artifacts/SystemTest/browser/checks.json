@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Initial 10x10 map, 20 scenarios, native engine connection",
+    "Manual step, previous tick, slider, cached history, complete C state",
+    "Obstacle/dust editing, start position, direction, invalid placement prevention",
+    "Custom map save/import/export, rejection without map mutation, evaluation and trace persistence",
+    "Auto playback, configurable speed, pause, reset/restart, stop at configured tick limit",
+    "390px mobile layout without page overflow and no JavaScript exceptions"
+  ],
+  "javascript_errors": []
+}

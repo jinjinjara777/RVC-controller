@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "file": "fsm.c",
+      "lines": 39,
+      "lines_hit": 39,
+      "branches": 34,
+      "branches_hit": 33
+    },
+    {
+      "file": "rvc.c",
+      "lines": 57,
+      "lines_hit": 57,
+      "branches": 68,
+      "branches_hit": 66
+    }
+  ],
+  "total": {
+    "lines": 96,
+    "lines_hit": 96,
+    "branches": 102,
+    "branches_hit": 99
+  },
+  "uncovered": [
+    {
+      "file": "fsm.c",
+      "line": 11,
+      "line_count": 36,
+      "uncovered_branches": 1
+    },
+    {
+      "file": "rvc.c",
+      "line": 20,
+      "line_count": 27,
+      "uncovered_branches": 1
+    },
+    {
+      "file": "rvc.c",
+      "line": 85,
+      "line_count": 18,
+      "uncovered_branches": 1
+    }
+  ]
+}

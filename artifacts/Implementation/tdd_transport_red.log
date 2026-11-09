@@ -1,0 +1,81 @@
+Test project C:/Users/jb086/Desktop/SE_HW3-2/261030_RVC_SASD_Codex/build
+    Start 1: rvc_unit_tests
+1/1 Test #1: rvc_unit_tests ...................***Failed    0.42 sec
+Running main() from C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\.tools\googletest-1.15.2\googletest\src\gtest_main.cc
+[==========] Running 22 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 16 tests from ControllerTest
+[ RUN      ] ControllerTest.R1_R2_ForwardCleansAndMops
+[       OK ] ControllerTest.R1_R2_ForwardCleansAndMops (0 ms)
+[ RUN      ] ControllerTest.R3_LeftPreferredAndCleaningStops
+[       OK ] ControllerTest.R3_LeftPreferredAndCleaningStops (0 ms)
+[ RUN      ] ControllerTest.R3_RightWhenLeftBlocked
+[       OK ] ControllerTest.R3_RightWhenLeftBlocked (0 ms)
+[ RUN      ] ControllerTest.R3_LeftWhenRightBlocked
+[       OK ] ControllerTest.R3_LeftWhenRightBlocked (0 ms)
+[ RUN      ] ControllerTest.R3_ResumesAfterTurn
+[       OK ] ControllerTest.R3_ResumesAfterTurn (0 ms)
+[ RUN      ] ControllerTest.R4_BackThenTurnThenResume
+[       OK ] ControllerTest.R4_BackThenTurnThenResume (0 ms)
+[ RUN      ] ControllerTest.R3_RechecksFrontAfterTurn
+[       OK ] ControllerTest.R3_RechecksFrontAfterTurn (0 ms)
+[ RUN      ] ControllerTest.Profile_SideOnlyDoesNotInterruptForward
+[       OK ] ControllerTest.Profile_SideOnlyDoesNotInterruptForward (0 ms)
+[ RUN      ] ControllerTest.R5_ThreeActiveTicksThenNormal
+[       OK ] ControllerTest.R5_ThreeActiveTicksThenNormal (0 ms)
+[ RUN      ] ControllerTest.R5_RepeatedDustRefreshesDuration
+[       OK ] ControllerTest.R5_RepeatedDustRefreshesDuration (0 ms)
+[ RUN      ] ControllerTest.R3_R5_AvoidanceOverridesAndPausesBoost
+[       OK ] ControllerTest.R3_R5_AvoidanceOverridesAndPausesBoost (0 ms)
+[ RUN      ] ControllerTest.R3_R5_DustDuringAvoidanceIsPending
+[       OK ] ControllerTest.R3_R5_DustDuringAvoidanceIsPending (0 ms)
+[ RUN      ] ControllerTest.R4_R5_PendingSurvivesBackwardAndTurn
+[       OK ] ControllerTest.R4_R5_PendingSurvivesBackwardAndTurn (0 ms)
+[ RUN      ] ControllerTest.Profile_BackwardUsesCurrentOpenRight
+[       OK ] ControllerTest.Profile_BackwardUsesCurrentOpenRight (0 ms)
+[ RUN      ] ControllerTest.R4_RepeatedEnclosureRemainsStopped
+[       OK ] ControllerTest.R4_RepeatedEnclosureRemainsStopped (0 ms)
+[ RUN      ] ControllerTest.Profile_StateTickCountsAndIndependentContexts
+[       OK ] ControllerTest.Profile_StateTickCountsAndIndependentContexts (0 ms)
+[----------] 16 tests from ControllerTest (0 ms total)
+
+[----------] 1 test from Conditions
+[ RUN      ] Conditions.R3_R4_AllSensorCombinationsPreserveValues
+[       OK ] Conditions.R3_R4_AllSensorCombinationsPreserveValues (0 ms)
+[----------] 1 test from Conditions (0 ms total)
+
+[----------] 5 tests from Pipeline
+[ RUN      ] Pipeline.R1_R5_ActualOutputAndReset
+[       OK ] Pipeline.R1_R5_ActualOutputAndReset (6 ms)
+[ RUN      ] Pipeline.InvalidInputIsRejectedWithoutCommand
+[       OK ] Pipeline.InvalidInputIsRejectedWithoutCommand (14 ms)
+[ RUN      ] Pipeline.NullPortsAndNullSnapshot
+[       OK ] Pipeline.NullPortsAndNullSnapshot (2 ms)
+[ RUN      ] Pipeline.FinalLineValidationDistinguishesMalformedInputFromEof
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:114: Failure
+Expected equality of these values:
+  status
+    Which is: 0
+  2
+
+[  FAILED  ] Pipeline.FinalLineValidationDistinguishesMalformedInputFromEof (4 ms)
+[ RUN      ] Pipeline.LongRecordIsRejectedAndAllBooleanEncodingsArePreserved
+[       OK ] Pipeline.LongRecordIsRejectedAndAllBooleanEncodingsArePreserved (17 ms)
+[----------] 5 tests from Pipeline (44 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 3 test suites ran. (45 ms total)
+[  PASSED  ] 21 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Pipeline.FinalLineValidationDistinguishesMalformedInputFromEof
+
+ 1 FAILED TEST
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.69 sec
+
+The following tests FAILED:
+	  1 - rvc_unit_tests (Failed)
+Errors while running CTest

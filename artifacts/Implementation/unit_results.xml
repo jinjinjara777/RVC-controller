@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="22" failures="0" disabled="0" errors="0" time="0.047" timestamp="2026-11-06T12:19:05.848" name="AllTests">
+  <testsuite name="ControllerTest" tests="16" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-11-06T12:19:05.848">
+    <testcase name="R1_R2_ForwardCleansAndMops" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="15" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R3_LeftPreferredAndCleaningStops" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="19" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R3_RightWhenLeftBlocked" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="23" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R3_LeftWhenRightBlocked" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="24" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R3_ResumesAfterTurn" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="25" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R4_BackThenTurnThenResume" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="29" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R3_RechecksFrontAfterTurn" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="34" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="Profile_SideOnlyDoesNotInterruptForward" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="37" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R5_ThreeActiveTicksThenNormal" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="40" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R5_RepeatedDustRefreshesDuration" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="46" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R3_R5_AvoidanceOverridesAndPausesBoost" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="51" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R3_R5_DustDuringAvoidanceIsPending" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="56" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R4_R5_PendingSurvivesBackwardAndTurn" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="60" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="Profile_BackwardUsesCurrentOpenRight" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="64" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="R4_RepeatedEnclosureRemainsStopped" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="67" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+    <testcase name="Profile_StateTickCountsAndIndependentContexts" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="71" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="ControllerTest" />
+  </testsuite>
+  <testsuite name="Conditions" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-11-06T12:19:05.848">
+    <testcase name="R3_R4_AllSensorCombinationsPreserveValues" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="76" status="run" result="completed" time="0." timestamp="2026-11-06T12:19:05.848" classname="Conditions" />
+  </testsuite>
+  <testsuite name="Pipeline" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.047" timestamp="2026-11-06T12:19:05.848">
+    <testcase name="R1_R5_ActualOutputAndReset" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="90" status="run" result="completed" time="0.005" timestamp="2026-11-06T12:19:05.848" classname="Pipeline" />
+    <testcase name="InvalidInputIsRejectedWithoutCommand" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="97" status="run" result="completed" time="0.015" timestamp="2026-11-06T12:19:05.854" classname="Pipeline" />
+    <testcase name="NullPortsAndNullSnapshot" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="103" status="run" result="completed" time="0.002" timestamp="2026-11-06T12:19:05.870" classname="Pipeline" />
+    <testcase name="FinalLineValidationDistinguishesMalformedInputFromEof" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="112" status="run" result="completed" time="0.006" timestamp="2026-11-06T12:19:05.872" classname="Pipeline" />
+    <testcase name="LongRecordIsRejectedAndAllBooleanEncodingsArePreserved" file="C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp" line="117" status="run" result="completed" time="0.016" timestamp="2026-11-06T12:19:05.878" classname="Pipeline" />
+  </testsuite>
+</testsuites>

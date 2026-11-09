@@ -1,0 +1,56 @@
+{
+  "name": "사용자 지도",
+  "start": [
+    5,
+    5
+  ],
+  "direction": 1,
+  "max_ticks": 100,
+  "obstacles": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "dust": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "id": "CUSTOM",
+  "requirements": [
+    "R1",
+    "R2",
+    "R3",
+    "R5"
+  ],
+  "functions": [
+    "자동 청소·물걸레",
+    "직진",
+    "장애물 회피·청소 재개",
+    "먼지 출력 강화"
+  ],
+  "expected": "편집된 사용자 지도입니다. P1 동작을 기준으로 수동 평가하세요.",
+  "sa": [
+    "Event List",
+    "Process Specifications",
+    "DFD Level 4 FSM"
+  ]
+}

@@ -1,0 +1,8 @@
+.tools/
+build/
+__pycache__/
+*.pyc
+simulator/saved/
+.vscode
+.venv/
+venv/

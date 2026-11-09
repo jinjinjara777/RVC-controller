@@ -1,0 +1,15 @@
+File 'C:/Users/jb086/Desktop/SE_HW3-2/261030_RVC_SASD_Codex/src/fsm.c'
+Lines executed:100.00% of 39
+Branches executed:100.00% of 34
+Taken at least once:97.06% of 34
+Calls executed:100.00% of 2
+
+Creating 'fsm.c.gcov.json.gz'
+File 'C:/Users/jb086/Desktop/SE_HW3-2/261030_RVC_SASD_Codex/src/rvc.c'
+Lines executed:100.00% of 57
+Branches executed:100.00% of 68
+Taken at least once:97.06% of 68
+Calls executed:100.00% of 21
+
+Creating 'rvc.c.gcov.json.gz'
+Lines executed:100.00% of 96

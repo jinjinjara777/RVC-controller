@@ -1,0 +1,337 @@
+Test project C:/Users/jb086/Desktop/SE_HW3-2/261030_RVC_SASD_Codex/build
+    Start 1: rvc_unit_tests
+1/1 Test #1: rvc_unit_tests ...................***Failed    0.56 sec
+Running main() from C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\.tools\googletest-1.15.2\googletest\src\gtest_main.cc
+[==========] Running 20 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 16 tests from ControllerTest
+[ RUN      ] ControllerTest.R1_R2_ForwardCleansAndMops
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:16: Failure
+Value of: d.cleaning.enabled
+  Actual: false
+Expected: true
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:17: Failure
+Value of: d.cleaning.mop
+  Actual: false
+Expected: true
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:17: Failure
+Expected equality of these values:
+  d.cleaning.power
+    Which is: 0
+  1
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:17: Failure
+Expected equality of these values:
+  d.snapshot.tick
+    Which is: 0
+  1u
+    Which is: 1
+
+[  FAILED  ] ControllerTest.R1_R2_ForwardCleansAndMops (0 ms)
+[ RUN      ] ControllerTest.R3_LeftPreferredAndCleaningStops
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:20: Failure
+Expected equality of these values:
+  d.motion
+    Which is: 0
+  TURN_LEFT
+    Which is: 2
+
+[  FAILED  ] ControllerTest.R3_LeftPreferredAndCleaningStops (0 ms)
+[ RUN      ] ControllerTest.R3_RightWhenLeftBlocked
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:23: Failure
+Expected equality of these values:
+  tick(true,true).motion
+    Which is: 0
+  TURN_RIGHT
+    Which is: 3
+
+[  FAILED  ] ControllerTest.R3_RightWhenLeftBlocked (0 ms)
+[ RUN      ] ControllerTest.R3_LeftWhenRightBlocked
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:24: Failure
+Expected equality of these values:
+  tick(true,false,true).motion
+    Which is: 0
+  TURN_LEFT
+    Which is: 2
+
+[  FAILED  ] ControllerTest.R3_LeftWhenRightBlocked (0 ms)
+[ RUN      ] ControllerTest.R3_ResumesAfterTurn
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:26: Failure
+Value of: d.cleaning.enabled
+  Actual: false
+Expected: true
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:27: Failure
+Expected equality of these values:
+  d.snapshot.previous
+    Which is: 0
+  TURNING
+    Which is: 2
+
+[  FAILED  ] ControllerTest.R3_ResumesAfterTurn (0 ms)
+[ RUN      ] ControllerTest.R4_BackThenTurnThenResume
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:30: Failure
+Expected equality of these values:
+  back.motion
+    Which is: 0
+  BACKWARD
+    Which is: 1
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:31: Failure
+Expected equality of these values:
+  turn.motion
+    Which is: 0
+  TURN_LEFT
+    Which is: 2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:31: Failure
+Expected equality of these values:
+  turn.snapshot.previous
+    Which is: 0
+  REVERSING
+    Which is: 1
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:32: Failure
+Value of: forward.cleaning.enabled
+  Actual: false
+Expected: true
+
+[  FAILED  ] ControllerTest.R4_BackThenTurnThenResume (0 ms)
+[ RUN      ] ControllerTest.R3_RechecksFrontAfterTurn
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:35: Failure
+Expected equality of these values:
+  d.motion
+    Which is: 0
+  TURN_RIGHT
+    Which is: 3
+
+[  FAILED  ] ControllerTest.R3_RechecksFrontAfterTurn (0 ms)
+[ RUN      ] ControllerTest.Profile_SideOnlyDoesNotInterruptForward
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:38: Failure
+Value of: tick(false,true).cleaning.enabled
+  Actual: false
+Expected: true
+
+[  FAILED  ] ControllerTest.Profile_SideOnlyDoesNotInterruptForward (0 ms)
+[ RUN      ] ControllerTest.R5_ThreeActiveTicksThenNormal
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:41: Failure
+Expected equality of these values:
+  first.cleaning.power
+    Which is: 0
+  2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:42: Failure
+Expected equality of these values:
+  first.snapshot.boost_remaining
+    Which is: 0
+  2u
+    Which is: 2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:42: Failure
+Value of: first.snapshot.boost_active
+  Actual: false
+Expected: true
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:43: Failure
+Expected equality of these values:
+  tick().cleaning.power
+    Which is: 0
+  2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:43: Failure
+Expected equality of these values:
+  tick().cleaning.power
+    Which is: 0
+  2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:44: Failure
+Expected equality of these values:
+  tick().cleaning.power
+    Which is: 0
+  1
+
+[  FAILED  ] ControllerTest.R5_ThreeActiveTicksThenNormal (0 ms)
+[ RUN      ] ControllerTest.R5_RepeatedDustRefreshesDuration
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:48: Failure
+Expected equality of these values:
+  tick(false,false,false,true).snapshot.boost_remaining
+    Which is: 0
+  2u
+    Which is: 2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:49: Failure
+Expected equality of these values:
+  tick().cleaning.power
+    Which is: 0
+  2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:49: Failure
+Expected equality of these values:
+  tick().cleaning.power
+    Which is: 0
+  2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:49: Failure
+Expected equality of these values:
+  tick().cleaning.power
+    Which is: 0
+  1
+
+[  FAILED  ] ControllerTest.R5_RepeatedDustRefreshesDuration (0 ms)
+[ RUN      ] ControllerTest.R3_R5_AvoidanceOverridesAndPausesBoost
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:53: Failure
+Expected equality of these values:
+  avoid.snapshot.boost_remaining
+    Which is: 0
+  2u
+    Which is: 2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:54: Failure
+Expected equality of these values:
+  tick().cleaning.power
+    Which is: 0
+  2
+
+[  FAILED  ] ControllerTest.R3_R5_AvoidanceOverridesAndPausesBoost (0 ms)
+[ RUN      ] ControllerTest.R3_R5_DustDuringAvoidanceIsPending
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:57: Failure
+Value of: d.snapshot.dust_pending
+  Actual: false
+Expected: true
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:58: Failure
+Expected equality of these values:
+  d.cleaning.power
+    Which is: 0
+  2
+
+[  FAILED  ] ControllerTest.R3_R5_DustDuringAvoidanceIsPending (0 ms)
+[ RUN      ] ControllerTest.R4_R5_PendingSurvivesBackwardAndTurn
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:61: Failure
+Value of: d.snapshot.dust_pending
+  Actual: false
+Expected: true
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:62: Failure
+Expected equality of these values:
+  d.cleaning.power
+    Which is: 0
+  2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:62: Failure
+Expected equality of these values:
+  d.snapshot.boost_remaining
+    Which is: 0
+  2u
+    Which is: 2
+
+[  FAILED  ] ControllerTest.R4_R5_PendingSurvivesBackwardAndTurn (0 ms)
+[ RUN      ] ControllerTest.Profile_BackwardUsesCurrentOpenRight
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:65: Failure
+Expected equality of these values:
+  tick(false,true,false).motion
+    Which is: 0
+  TURN_RIGHT
+    Which is: 3
+
+[  FAILED  ] ControllerTest.Profile_BackwardUsesCurrentOpenRight (0 ms)
+[ RUN      ] ControllerTest.R4_RepeatedEnclosureRemainsStopped
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:69: Failure
+Expected equality of these values:
+  tick(true,true,true).motion
+    Which is: 0
+  BACKWARD
+    Which is: 1
+
+[  FAILED  ] ControllerTest.R4_RepeatedEnclosureRemainsStopped (0 ms)
+[ RUN      ] ControllerTest.Profile_StateTickCountsAndIndependentContexts
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:72: Failure
+Expected equality of these values:
+  tick().snapshot.state_ticks
+    Which is: 0
+  1u
+    Which is: 1
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:72: Failure
+Expected equality of these values:
+  tick().snapshot.state_ticks
+    Which is: 0
+  2u
+    Which is: 2
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:74: Failure
+Expected equality of these values:
+  d.snapshot.tick
+    Which is: 0
+  1u
+    Which is: 1
+
+[  FAILED  ] ControllerTest.Profile_StateTickCountsAndIndependentContexts (0 ms)
+[----------] 16 tests from ControllerTest (2 ms total)
+
+[----------] 1 test from Conditions
+[ RUN      ] Conditions.R3_R4_AllSensorCombinationsPreserveValues
+[       OK ] Conditions.R3_R4_AllSensorCombinationsPreserveValues (0 ms)
+[----------] 1 test from Conditions (0 ms total)
+
+[----------] 3 tests from Pipeline
+[ RUN      ] Pipeline.R1_R5_ActualOutputAndReset
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:92: Failure
+Expected: (s.find("\"power\":2")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:93: Failure
+Expected: (s.find("\"motor\":\"TURN_LEFT\"")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:94: Failure
+Expected: (s.find("\"tick\":3")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:95: Failure
+Expected: (run("0 0 0 0\n").find("\"tick\":1")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+
+[  FAILED  ] Pipeline.R1_R5_ActualOutputAndReset (6 ms)
+[ RUN      ] Pipeline.InvalidInputIsRejectedWithoutCommand
+[       OK ] Pipeline.InvalidInputIsRejectedWithoutCommand (16 ms)
+[ RUN      ] Pipeline.NullPortsAndNullSnapshot
+C:\Users\jb086\Desktop\SE_HW3-2\261030_RVC_SASD_Codex\tests\controller_test.cpp:107: Failure
+Value of: compute_control(f,Observation{},nullptr).cleaning.enabled
+  Actual: false
+Expected: true
+
+[  FAILED  ] Pipeline.NullPortsAndNullSnapshot (2 ms)
+[----------] 3 tests from Pipeline (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 3 test suites ran. (27 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 18 tests, listed below:
+[  FAILED  ] ControllerTest.R1_R2_ForwardCleansAndMops
+[  FAILED  ] ControllerTest.R3_LeftPreferredAndCleaningStops
+[  FAILED  ] ControllerTest.R3_RightWhenLeftBlocked
+[  FAILED  ] ControllerTest.R3_LeftWhenRightBlocked
+[  FAILED  ] ControllerTest.R3_ResumesAfterTurn
+[  FAILED  ] ControllerTest.R4_BackThenTurnThenResume
+[  FAILED  ] ControllerTest.R3_RechecksFrontAfterTurn
+[  FAILED  ] ControllerTest.Profile_SideOnlyDoesNotInterruptForward
+[  FAILED  ] ControllerTest.R5_ThreeActiveTicksThenNormal
+[  FAILED  ] ControllerTest.R5_RepeatedDustRefreshesDuration
+[  FAILED  ] ControllerTest.R3_R5_AvoidanceOverridesAndPausesBoost
+[  FAILED  ] ControllerTest.R3_R5_DustDuringAvoidanceIsPending
+[  FAILED  ] ControllerTest.R4_R5_PendingSurvivesBackwardAndTurn
+[  FAILED  ] ControllerTest.Profile_BackwardUsesCurrentOpenRight
+[  FAILED  ] ControllerTest.R4_RepeatedEnclosureRemainsStopped
+[  FAILED  ] ControllerTest.Profile_StateTickCountsAndIndependentContexts
+[  FAILED  ] Pipeline.R1_R5_ActualOutputAndReset
+[  FAILED  ] Pipeline.NullPortsAndNullSnapshot
+
+18 FAILED TESTS
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.64 sec
+
+The following tests FAILED:
+	  1 - rvc_unit_tests (Failed)
+Errors while running CTest

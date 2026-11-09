@@ -1,0 +1,270 @@
+[
+  {
+    "id": "ST-01",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-02",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-03",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-04",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-05",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-06",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-07",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-08",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-09",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-10",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-11",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-12",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-13",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-14",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-15",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-16",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-17",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-18",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-19",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  },
+  {
+    "id": "ST-20",
+    "ticks": 100,
+    "snapshots": 101,
+    "observed_requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "blocked_moves": 0,
+    "human_result": "PENDING"
+  }
+]
